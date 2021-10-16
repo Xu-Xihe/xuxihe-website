@@ -1,13 +1,11 @@
 ---
-title: "Docsy Blog"
-linkTitle: "Blog"
+title: "OI Blog"
+linkTitle: "OI Blog"
+type: blog
 menu:
   main:
-    weight: 30
+    weight: 2
+    
 ---
 
-
-This is the **blog** section. It has two categories: News and Releases.
-
-Files in these directories will be listed in reverse chronological order.
-
+这里,是一名OIer的学习历程,共享给下一代OIer。

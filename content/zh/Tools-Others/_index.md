@@ -1,13 +1,8 @@
 ---
-title: "Docsy Blog"
-linkTitle: "Blog"
+title: "杂谈"
+linkTitle: "杂谈"
 menu:
   main:
-    weight: 30
+    weight: 950
 ---
-
-
-This is the **blog** section. It has two categories: News and Releases.
-
-Files in these directories will be listed in reverse chronological order.
-
+这可能才是一个真正的blog,分享一些奇奇怪怪偏门左道的计算机杂谈及各种有趣的资料。

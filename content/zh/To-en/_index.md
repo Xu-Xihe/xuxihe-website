@@ -1,13 +1,10 @@
 ---
-title: "Docsy Blog"
-linkTitle: "Blog"
+title: "汉译英"
+linkTitle: "汉译英"
+type: blog
 menu:
   main:
-    weight: 30
+    weight: 3
 ---
 
-
-This is the **blog** section. It has two categories: News and Releases.
-
-Files in these directories will be listed in reverse chronological order.
-
+这里时不时地可能翻译一些“心灵鸡汤”或者自己喜欢的一点儿东西,具体视情况而定。
