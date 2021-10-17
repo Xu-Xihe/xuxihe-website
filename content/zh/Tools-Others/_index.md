@@ -1,6 +1,7 @@
 ---
 title: "杂谈"
 linkTitle: "杂谈"
+type: blog
 menu:
   main:
     weight: 950
