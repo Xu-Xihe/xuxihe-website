@@ -1,3 +1,13 @@
+---
+title: "SPFA-DFS负环证明"
+linkTitle: "SPFA-DFS负环证明"
+type: blog
+weight: 5
+date: 2021-10-18
+description: >
+  一篇小小的证明。
+---
+
 # SPFA-DFS负环证明
 
 
