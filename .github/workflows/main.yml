@@ -4,13 +4,12 @@ on:
   push:
     branches:
       - main  # Set a branch to deploy
-  pull_request:
 
 jobs:
   deploy:
     runs-on: ubuntu-20.04
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
+    #concurrency:
+    #  group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - uses: actions/checkout@v2
         with:
@@ -32,7 +31,7 @@ jobs:
         uses: actions/cache@v1
         with:
           path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
 
@@ -41,8 +40,9 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: Xu-Xihe/xu-xihe.github.io
           publish_branch: main
-          publish_dir: .
+          publish_dir: ./public
