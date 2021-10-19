@@ -46,3 +46,5 @@ jobs:
           external_repository: Xu-Xihe/xu-xihe.github.io
           publish_branch: main
           publish_dir: .
+          user_name: Xu-Xihe
+          user_email: xxhsishi@outlook.com
