@@ -1,0 +1,17 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Seine – 汉译英</title>
+    <link>/to-en/</link>
+    <description>Recent content in 汉译英 on Seine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="/to-en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>

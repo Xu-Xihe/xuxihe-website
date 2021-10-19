@@ -1,0 +1,17 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Seine – 每日单词</title>
+    <link>/daily-words/</link>
+    <description>Recent content in 每日单词 on Seine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="/daily-words/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>
