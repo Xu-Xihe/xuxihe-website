@@ -11,7 +11,7 @@ enableGitInfo = true
 
 # Language settings
 contentDir = "content/zh"
-defaultContentLanguage = "zh"
+defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = false
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
@@ -69,7 +69,7 @@ id = "UA-00000000-0"
 # Language configuration
 
 [languages]
-[languages.zh]
+[languages.zh-cn]
 title = "Seine"
 description = "曦曦呵呵的个站"
 languageName ="简体中文"
